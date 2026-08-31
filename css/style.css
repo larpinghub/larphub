@@ -28,6 +28,7 @@ html,body{
   align-items:center;
   justify-content:space-between;
   padding:18px 40px;
+  padding-left: 16px;
   background:rgba(8,9,15,.85);
   border-bottom:1px solid var(--panel-border);
   backdrop-filter:blur(10px);
@@ -74,6 +75,17 @@ html,body{
   height:1px;
   background:var(--glow);
   transition:width .25s ease;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-logo-img {
+  height: 32px;
+  width: auto;
 }
 
 .nav-links a:hover{ color:var(--bone); }
